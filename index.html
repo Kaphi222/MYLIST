@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quản lý tài sản cá nhân</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+
+
+  <<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+</head>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  nav {
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  nav a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+</style>
+</head>
+
+<body>
+  <header>
+    <h1>Thông tin chung</h1>
+  </header>
+  <nav>
+    <a href="#danh-muc-tai-san">Danh mục tài sản</a>
+    <a href="#tai-san-tich-luy">Tài sản tích lũy</a>
+    <a href="#tai-san-dong-tien">Tài sản dòng tiền</a>
+    <a href="#chia-se-kinh-nghiem">Chia sẻ kinh nghiệm</a>
+  </nav>
+  <div class="container" id="danh-muc-tai-san">
+    <h2>Danh mục tài sản</h2>
+    <!-- Nội dung danh mục tài sản -->
+  </div>
+  <div class="container" id="tai-san-tich-luy">
+    <h2>Tài sản tích lũy</h2>
+    <!-- Nội dung tài sản tích lũy -->
+  </div>
+  <div class="container" id="tai-san-dong-tien">
+    <h2>Tài sản dòng tiền</h2>
+    <!-- Nội dung tài sản dòng tiền -->
+  </div>
+  <div class="container" id="chia-se-kinh-nghiem">
+    <h2>Chia sẻ kinh nghiệm</h2>
+    <!-- Nội dung chia sẻ kinh nghiệm -->
+  </div>
+  <div id="color-options">
+    <button onclick="changeColor('#f4f4f4')">Màu mặc định</button>
+    <button onclick="changeColor('#e6e6fa')">Màu Lavender</button>
+    <button onclick="changeColor('#ffd700')">Màu Vàng</button>
+    <button onclick="changeColor('#90ee90')">Màu Light Green</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

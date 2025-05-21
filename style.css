@@ -1,0 +1,72 @@
+header {
+  background-color: #fff;
+  color: #853232;
+  text-align: center;
+  padding: 10px 0;
+}
+
+h1 {
+  color: #f1c40f;
+  /* Màu vàng */
+  font-family: 'Poppins', sans-serif;
+  /* Sử dụng font chữ Poppins */
+  font-weight: 700;
+  /* Font in đậm */
+  font-size: 2.5em;
+  /* Kích thước font */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.container:hover {
+  transform: scale(1.02);
+}
+
+
+
+h2 {
+  color: #007bff;
+}
+
+p {
+  color: #555;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
